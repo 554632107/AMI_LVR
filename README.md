@@ -81,18 +81,6 @@ This will:
 - Perform quantitative consistency analysis
 - Output visualizations to `output_saliencyana2/`
 
-## Key Features
-
-### Patient-level Data Splitting
-Prevents data leakage by ensuring samples from the same patient are not split across train/validation/test sets.
-
-### SmoothGrad Saliency
-Reduces noise in gradient-based saliency maps by averaging over multiple noise-perturbed inputs.
-
-### Quantitative Metrics
-- **ICC**: Measures consistency of lead importance across samples
-- **ANOVA**: Tests significance of top-3 leads vs. others
-- **Consistency Rate**: Percentage of samples with key leads in top-3
 
 
 ## Citation
@@ -110,3 +98,4 @@ If you use this code in your research, please cite:
 ## Contact
 
 For questions or issues, please open an issue in this repository.
+
